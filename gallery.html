@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+        .image{
+            display: grid;
+            grid-template-columns: repeat(3,240px);
+            grid-template-rows: repeat(3,240px);
+            grid-gap:20px;
+        }
+        .image img{
+            border-radius: 20px;
+            border-style: solid;
+        }
+        .image img:hover{
+            transform: scale(1.1);
+            box-shadow: 5px 5px 10px black;
+            cursor: pointer;
+            cursor: grabbing;
+        }
+        .title{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container ">
+        <h1>GALLERY..</h1>
+        <div class="image">
+            <div><a href="https://aptech-education.com.pk/" target="_blank"><img src="flower.jfif" alt="annas moiz"><h1 class="title">flower</h1></a></div>
+            <div><a href="https://aptech-education.com.pk/" target="_blank"><img src="flower.jfif" alt="annas moiz"><h1 class="title">flower</h1></a></div>
+            <div><a href="https://aptech-education.com.pk/" target="_blank"><img src="flower.jfif" alt="annas moiz"><h1 class="title">flower</h1></a></div>
+            <div><a href="https://aptech-education.com.pk/" target="_blank"><img src="flower.jfif" alt="annas moiz"><h1 class="title">flower</h1></a></div>
+            <div><a href="https://aptech-education.com.pk/" target="_blank"><img src="flower.jfif" alt="annas moiz"><h1 class="title">flower</h1></a></div>
+            <div><a href="https://aptech-education.com.pk/" target="_blank"><img src="flower.jfif" alt="annas moiz"><h1 class="title">flower</h1></a></div>
+            <div><a href="https://aptech-education.com.pk/" target="_blank"><img src="flower.jfif" alt="annas moiz"><h1 class="title">flower</h1></a></div>
+            <div><a href="https://aptech-education.com.pk/" target="_blank"><img src="flower.jfif" alt="annas moiz"><h1 class="title">flower</h1></a></div>
+            <div><a href="https://aptech-education.com.pk/" target="_blank"><img src="flower.jfif" alt="annas moiz"><h1 class="title">flower</h1></a></div>
+        </div>
+    </div>
+</body>
+</html>
